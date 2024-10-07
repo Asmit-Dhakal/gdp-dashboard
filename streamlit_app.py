@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the trained model
-model = joblib.load("./models/best_random_forest_model.pkl")
+model = joblib.load("best_random_forest_model.pkl")
 
 # Define expected feature columns based on the training set
 expected_columns = [
